@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+content {
+    width: 70%;
+    text-align: center;
+}
+
+.column1 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}

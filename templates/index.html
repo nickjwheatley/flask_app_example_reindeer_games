@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{%  block head %}
+<title>Reindeer Games</title>
+{% endblock %}
+
+{%  block body %}
+<div class="column1">
+    <h1 style="text-align: center">Events</h1>
+</div>
+<div class="column2">
+    <h1 style="text-align: center">Teams</h1>
+    <br>
+    <br>
+</div>
+<div class="'column1">
+    <h1 style="text-align: center">Players</h1>
+
+    <table class="center">
+        <tr>
+            <th>Ranking</th>
+            <th>Player</th>
+            <th>Score</th>
+            <th>Actions</th>
+        </tr>
+        {% for player in players %}
+        <tr>
+            <td>{{ player.rank }}</td>
+            <td>{{ player.name }}</td>
+            <td>{{ player.score }}</td>
+            <td>
+                <a href="">Update</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <br>
+    <br>
+    <form class="column1" action="/" method="POST">
+        <input type="text" name="player_name" id="player">
+        <input type="submit" value="Add Player">
+    </form>
+
+</div>
+{% endblock %}

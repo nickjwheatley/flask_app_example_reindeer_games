@@ -1,0 +1,15 @@
+Start app instance: in the terminal type "python app.py" then click the port hyperlink suggested.
+
+To do:
+
+Eli:
+- Connect game table to html
+- Create Game method to determine point values on event creation
+- Play around with HTML/CSS
+
+Isaac:
+- Create Player methods mentioned in app.py
+
+Nick:
+- Create team generation tab
+- Create reindeer game javascript and connect to tables and app
