@@ -1,4 +1,9 @@
-Start app instance: in the terminal type "python app.py" then click the port hyperlink suggested.
+Setup:
+  1. Clone repo to your local environment
+  2. Install necessary packages
+  3. Start app instance: in the terminal type "python app.py" then click the port hyperlink suggested.
+  
+**Don't push changes back to master - create a new branch and submit a pull request when your changes are ready**
 
 To do:
 
